@@ -12,5 +12,17 @@
     "Server"
   ],
   "author": "Fadhil Luqman",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fadhil/flex-chat-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Fadhil/flex-chat-server/issues"
+  },
+  "homepage": "https://github.com/Fadhil/flex-chat-server#readme"
 }
