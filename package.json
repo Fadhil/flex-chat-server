@@ -1,0 +1,16 @@
+{
+  "name": "flex-chat-server",
+  "version": "0.0.1",
+  "description": "A chat server for Flexcility",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Flexcility",
+    "Chat",
+    "Server"
+  ],
+  "author": "Fadhil Luqman",
+  "license": "ISC"
+}
