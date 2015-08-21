@@ -1,29 +1,18 @@
 {
   "name": "flex-chat-server",
-  "version": "0.0.1",
-  "description": "A chat server for Flexcility",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "keywords": [
-    "Flexcility",
-    "Chat",
-    "Server"
-  ],
-  "author": "Fadhil Luqman",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.13.3",
-    "socket.io": "^1.3.6"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Fadhil/flex-chat-server.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Fadhil/flex-chat-server/issues"
-  },
-  "homepage": "https://github.com/Fadhil/flex-chat-server#readme"
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.6.1",
+    "node-sass-middleware": "0.8.0",
+    "serve-favicon": "~2.3.0"
+  }
 }
