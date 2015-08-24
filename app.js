@@ -10,15 +10,6 @@ var users = require('./routes/users');
 
 var app = express();
 
-// Socket.io
-var socketio = require('socket.io');
-var io = socketio();
-app.io = io;
-
-io.on('connection', function(socket){
-   console.log('a user connected');
-});
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');

@@ -7,6 +7,7 @@
 var app = require('../app');
 var debug = require('debug')('flex-chat-server:server');
 var http = require('http');
+var io = require('../lib/flexio');
 
 /**
  * Get port from environment and store in Express.
@@ -24,7 +25,6 @@ var server = http.createServer(app);
 /**
  * Add socket.io
  */
-var io = app.io
 io.attach( server );
 
 /**
